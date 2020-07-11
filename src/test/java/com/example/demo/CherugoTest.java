@@ -31,7 +31,7 @@ public class CherugoTest {
 
     @Test
     void StrToCheruTest() {
-        String test = "abcdefghijklmnopqrstuvwxyz";
+        String test = "abcdefghijklmnopqrstuvwxyz0123456789";
         CherugoPlugin p = new CherugoPlugin();
 
         String c = p.strToCheru(test);
